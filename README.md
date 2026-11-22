@@ -141,6 +141,6 @@ Bucket also has some factoids for hard-coded uses. These include "Don't Know", "
 
 #### Contacting
 
-Any bugs, feature requests or questions should be directed to zigdon at
-irc.foonetic.net.  Or, ask people in #xkcd and #bucket there - many have years
+Any bugs, feature requests or questions should be directed to IceKarma on
+irc.slashnet.org.  Or, ask people in #xkcd and #bucket there - many have years
 of experience with Bucket.
