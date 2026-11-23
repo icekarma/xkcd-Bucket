@@ -56,7 +56,7 @@ $SIG{CHLD} = 'IGNORE';
 $|++;
 
 ### IRC portion
-my $configfile = shift || "bucket.yml";
+my $configfile = shift || "/home/bucket/etc/bucket.yml";
 my $config     = LoadFile($configfile);
 my $nick       = &config("nick") || "Bucket";
 my $pass       = &config("password") || "somethingsecret";
@@ -738,8 +738,8 @@ sub irc_on_public {
             } else {
                 &say( $chl =>
                         "Sorry, $bag{who}, that's an invalid undo structure. "
-                      . "Please tell Zigdon, or report the command used at "
-                      . "https://github.com/zigdon/xkcd-Bucket/issues/new" );
+                      . "Please tell IceKarma, or report the command used at "
+                      . "https://github.com/IceKarma/xkcd-Bucket/issues/new" );
             }
 
         } elsif ( $undo->[0] eq 'edit' ) {
@@ -772,8 +772,8 @@ sub irc_on_public {
             } else {
                 &say( $chl =>
                         "Sorry, $bag{who}, that's an invalid undo structure. "
-                      . "Please tell Zigdon, or report the command used at "
-                      . "https://github.com/zigdon/xkcd-Bucket/issues/new" );
+                      . "Please tell IceKarma, or report the command used at "
+                      . "https://github.com/IceKarma/xkcd-Bucket/issues/new" );
             }
             delete $undo{$uchannel};
         } else {
